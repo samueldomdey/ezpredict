@@ -1,0 +1,2 @@
+This package is meant to offer a variety of convenient inference functions, particularly for fine-tuned transformers.
+Limited to j-hartmann's fine-tuned emotion-english-distilroberta-base -> https://huggingface.co/j-hartmann/emotion-english-distilroberta-base for now.
