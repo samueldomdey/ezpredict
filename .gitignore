@@ -1,2 +1,3 @@
 dist/
 *.egg-info
+ezpredict.egg-info
