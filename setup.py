@@ -11,9 +11,9 @@ setuptools.setup(
     description="A small package for convenient predictions on fine-tuned huggingface-models",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/samueldomdey/ezpredict",
     project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+        "Bug Tracker": "https://github.com/samueldomdey/ezpredict/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
