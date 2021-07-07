@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="ezpredict",
-    version="0.0.4",
+    version="0.0.5",
     author="Samuel Domdey",
     author_email="samuel.domdey@gmail.com",
     description="A small package for convenient predictions on fine-tuned huggingface-models",
