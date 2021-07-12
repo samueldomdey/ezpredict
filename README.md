@@ -2,8 +2,12 @@
 
 Limited to [Jochen Hartmann's](https://github.com/j-hartmann) fine-tuned [j-hartmann/emotion-english-distilroberta-base](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base) for now.
 
+##### Install:
+1. Command line `pip install ezpredict`
+2. Google Colab `!pip install ezpredict`
 
-##### Installs:
+
+##### Imports:
 ```
 pip install numpy
 pip install torch
