@@ -32,7 +32,7 @@ preds = predict.predict_input(model_name="j-hartmann/emotion-english-distilrober
  
  
 ##### Sample output:
-`[('What a beautiful day!', {'anger': 0.0013013791, 'disgust': 0.00047031444, 'fear': 0.001256481, 'joy': 0.95772415, 'neutral': 0.005870249, 'sadness': 0.004233605, 'surprise': 0.029143812})]`
+`[('What a beautiful day!', {'anger': 0.0013013791, 'disgust': 0.00047031444, 'fear': 0.001256481, 'joy': 0.95772415, 'neutral': 0.005870249, 'sadness': 0.004233605, 'surprise': 0.029143812}), ('My grandfather died today.', {'anger': 0.0012322478, 'disgust': 0.002399753, 'fear': 0.0018630251, 'joy': 0.0021994421, 'neutral': 0.012114782, 'sadness': 0.96717805, 'surprise': 0.013012686})]`
 
 
 
