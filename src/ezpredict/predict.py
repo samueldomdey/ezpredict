@@ -99,7 +99,8 @@ def predict_input(model_name, input, return_values, print_values):
             # sort np-array by values low-high, flip to high-low
             emotion_values = np.argsort(probabilities_numpy)[::-1]
 
-            print("Prediction for input:", value)
+            if print_values == True:
+                print("Prediction for input:", value)
             # Print emotion labels with respective prediction values
             for emotion in range(len(probabilities_numpy)):
                 # current emotion
@@ -107,7 +108,9 @@ def predict_input(model_name, input, return_values, print_values):
                 # current probability
                 prob = probabilities_numpy[emotion_values[emotion]]
 
-                print(f"{em}:\n" + f"{np.round(float(prob), 10)}\n")
-            print("\n")
+                if print_values == True:
+                    print(f"{em}:\n" + f"{np.round(float(prob), 10)}\n")
+            if print_values == True:
+                print("\n")
 
 
