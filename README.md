@@ -12,7 +12,7 @@ pip install transformers
 
 ##### How to use:
 
-```
+```python
 from ezpredict import predict
 
 preds = predict.predict_input(model_name="j-hartmann/emotion-english-distilroberta-base",
