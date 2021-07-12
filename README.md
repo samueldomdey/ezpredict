@@ -25,10 +25,10 @@ preds = predict.predict_input(model_name="j-hartmann/emotion-english-distilrober
                 
                 
 #### Variables: 
- `model_name` -> name of model to perform inference on (limited to "j-hartmann/emotion-english-distilroberta-base" for now)
- `input` -> list of strings to perform predictions on
- `return_values` -> True/False, True: returns predictions as list of tuples 
- `print_values` -> True/False,  True: returns verbose outputs
+ 1. `model_name` -> name of model to perform inference on (limited to "j-hartmann/emotion-english-distilroberta-base" for now)
+ 2. `input` -> list of strings to perform predictions on
+ 3. `return_values` -> True/False, True: returns predictions as list of tuples 
+ 4. `print_values` -> True/False,  True: returns verbose outputs
 
 
 
