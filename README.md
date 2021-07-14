@@ -7,7 +7,7 @@ Limited to [Jochen Hartmann's](https://github.com/j-hartmann) fine-tuned [j-hart
 2. Google Colab `!pip install ezpredict`
 
 
-##### Imports:
+##### Library installs:
 ```
 pip install numpy
 pip install torch
